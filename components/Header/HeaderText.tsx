@@ -36,7 +36,6 @@ function HeaderText() {
       itemType="https://schema.org/Person"
       className={classes.root}
     >
-      <meta itemProp="familyName" content="Tomar" />
       <meta itemProp="gender" content="https://schema.org/Male" />
       <meta itemProp="name" content="Prajwal Raut" />
       <Typography
@@ -60,12 +59,7 @@ function HeaderText() {
         A fullstack web developer
       </Typography>
       <Typography itemProp="knowsAbout" className={classes.paragraph}>
-        A dynamic MERN stack developer with over 17 months of professional
-        experience. Graduated from Masai School with a strong foundation in
-        mathematics, programming logic, data structures, and algorithms.
-        Proficient in both Frontend and Backend technologies, with a proven
-        track record of applying agile methodology to deliver robust web
-        applications.
+      Dynamic Full Stack MERN developer with nearly 3 years of experience designing, building, and deploying scalable web applications. Expert in React.js, Node.js, Express, MongoDB, SQL Server, and Azure DevOps. Proven ability to lead cross-functional teams, optimize CI/CD pipelines, and deliver high-quality software solutions in agile environments.
       </Typography>
       <Buttons />
     </Box>

@@ -14,6 +14,9 @@ type logoNames =
   | "github"
   | "materialui"
   | "mongodb"
+  | "mysql"
+  | "sqlserver"
+  | "devops"
   | "nextjs"
   | "s3"
   | "socketio"
@@ -99,6 +102,18 @@ const logos: Logos = {
   mongodb: {
     label: "MongoDB",
     logo: "/assets/icons/mongodb.svg",
+  },
+  mysql: {
+    label: "Mysql",
+    logo: "/assets/icons/mysql.svg",
+  },
+  sqlserver: {
+    label: "SQL Server",
+    logo: "/assets/icons/sqlserver.svg",
+  },
+  devops: {
+    label: "DevOps",
+    logo: "/assets/icons/devops.svg",
   },
   nextjs: {
     label: "Next.js",
